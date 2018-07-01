@@ -13,6 +13,7 @@
 		27C6248F20DF40A8001542F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C6248D20DF40A8001542F5 /* Main.storyboard */; };
 		27C6249120DF40A9001542F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C6249020DF40A9001542F5 /* Assets.xcassets */; };
 		27C6249420DF40A9001542F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C6249220DF40A9001542F5 /* LaunchScreen.storyboard */; };
+		27D9F69120E8BB4000E7F739 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9F69020E8BB4000E7F739 /* NewsViewController.swift */; };
 		66D673D520DF7B8D00197D3B /* Paring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D673D420DF7B8D00197D3B /* Paring.swift */; };
 		66D673D720DF871400197D3B /* ParingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D673D620DF871400197D3B /* ParingTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 		27C6249020DF40A9001542F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C6249320DF40A9001542F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27C6249520DF40A9001542F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D9F69020E8BB4000E7F739 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		66D673D420DF7B8D00197D3B /* Paring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paring.swift; sourceTree = "<group>"; };
 		66D673D620DF871400197D3B /* ParingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParingTableViewCell.swift; sourceTree = "<group>"; };
 		809D2C918055F920A3FB6695 /* Pods_BitcoinExchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinExchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 				27C6248920DF40A8001542F5 /* AppDelegate.swift */,
 				27C6248B20DF40A8001542F5 /* ViewController.swift */,
 				66D673D620DF871400197D3B /* ParingTableViewCell.swift */,
+				27D9F69020E8BB4000E7F739 /* NewsViewController.swift */,
 				27C6248D20DF40A8001542F5 /* Main.storyboard */,
 				27C6249020DF40A9001542F5 /* Assets.xcassets */,
 				27C6249220DF40A9001542F5 /* LaunchScreen.storyboard */,
@@ -197,10 +200,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinExchange/Pods-BitcoinExchange-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,6 +222,7 @@
 				66D673D720DF871400197D3B /* ParingTableViewCell.swift in Sources */,
 				27C6248C20DF40A8001542F5 /* ViewController.swift in Sources */,
 				66D673D520DF7B8D00197D3B /* Paring.swift in Sources */,
+				27D9F69120E8BB4000E7F739 /* NewsViewController.swift in Sources */,
 				27C6248A20DF40A8001542F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

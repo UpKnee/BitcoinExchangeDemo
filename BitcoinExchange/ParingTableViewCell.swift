@@ -12,6 +12,7 @@ class ParingTableViewCell: UITableViewCell {
     
     @IBOutlet weak var activeLabel: UILabel!
     @IBOutlet weak var pairingIdLabel: UILabel!
+    @IBOutlet weak var newsImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

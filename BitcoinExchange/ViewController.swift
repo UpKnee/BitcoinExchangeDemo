@@ -8,6 +8,7 @@
 // breeze
 import UIKit
 import Alamofire
+import Kingfisher
 
 class ViewController: UIViewController, UITableViewDataSource {
     
@@ -63,6 +64,8 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         cell.activeLabel.text = paring.active
         cell.pairingIdLabel.text = paring.pairing_id
+        let url = URL(string: "https://cdn3.iconfinder.com/data/icons/ballicons-reloaded-free/512/icon-70-512.png")
+        cell.newsImageView.kf.setImage(with: url)
         
         return cell
     }

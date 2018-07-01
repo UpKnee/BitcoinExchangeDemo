@@ -7,5 +7,6 @@ target 'BitcoinExchange' do
 
   # Pods for BitcoinExchange
   pod 'Alamofire'
+  pod 'Kingfisher'
   
 end
