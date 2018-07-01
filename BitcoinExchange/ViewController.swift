@@ -18,6 +18,8 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Test git hub
+        
         self.tableView.dataSource = self
         // pull paring from BX
         Alamofire.request("https://bx.in.th/api/pairing/").responseJSON { response in
