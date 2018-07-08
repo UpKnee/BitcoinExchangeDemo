@@ -7,7 +7,11 @@
 //
 // breeze
 //Edit BitcoinExchangeDemo test
+<<<<<<< HEAD
 //Edit Master to see master node separates from branch
+=======
+//Edit BrachTanTest
+>>>>>>> BrachTanTest
 import UIKit
 import Alamofire
 import Kingfisher
